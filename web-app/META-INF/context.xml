@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- FOR PLV SYSTEM SYNCHRONIZATION -->
+    <Resource name="jdbc/plvSysConnector"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="sa"
+              password="password0"
+              url="jdbc:jtds:sqlserver://localhost:1433/PLV System"
+              factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+              driverClassName = "net.sourceforge.jtds.jdbc.Driver"
+            />
+    <!-- FOR PLV FES DB -->
+    <Resource name="jdbc/plvFesConnector"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="sa"
+              password="password0"
+              url="jdbc:jtds:sqlserver://localhost:1433/PLVFESDB"
+              factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+              driverClassName = "net.sourceforge.jtds.jdbc.Driver"
+            />
+</Context>

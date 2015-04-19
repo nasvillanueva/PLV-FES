@@ -1,0 +1,19 @@
+#footer {
+    background-color: #4285f4;
+    text-align: center;
+    font-size:0.9em;
+}
+p.credit{
+    margin-bottom: 0;
+}
+#footer, #footer .container, .push{
+    height: 30px;
+}
+#footer .container{
+    padding:5px;
+}
+
+.no-space{
+    padding:0 !important;
+    margin:0 !important;
+}
